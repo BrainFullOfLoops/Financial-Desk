@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+.nav {
+    @apply flex 
+}
+
+.nav-logo {
+    @apply h-[4vh] mt-[3vh] ml-[8vw] sm:h-10 sm:mt-6 sm:ml-18.75
+}
+
+.nav-h1 {
+    @apply mt-[3vh] ml-[0.8vw] font-medium text-[1.3rem] sm:text-[1.8rem] sm:mt-6
+}
+
+.nav-ham {
+    @apply h-[3.5vh] mt-[3vh] ml-[28vw] sm:ml-[40vw] sm:h-8 sm:mt-6 md:ml-[45vw] lg:ml-[55vw] xl:ml-[70vw]
+}
+
+.h-h {
+    @apply text-[1.65rem] font-serif font-semibold mt-[3vh] ml-[7.8vw] w-[80vw] leading-snug sm:text-center sm:w-xl sm:mx-auto sm:text-[2.5rem]
+}
+
+.h-h2 {
+    @apply ml-[7.8vw] mt-[2vh] text-slate-600 sm:text-center sm:w-xl sm:mx-auto sm:text-[1.2rem] sm:mt-2
+}
+
+.h-b1 {
+    @apply w-[40vw] bg-emerald-600 text-center ml-[8vw] mt-[3vh] text-amber-50 text-[1.2rem] py-[0.8vh] rounded-sm sm:py-2 sm:w-40
+}
+
+.abcd {
+    @apply flex sm:justify-center sm:items-center sm:w-screen
+}
+
+.h-b2 {
+    @apply rounded-sm w-[30vw] bg-slate-700 text-amber-50 text-center mt-[3vh] text-[1.2rem] py-[0.8vh] ml-[3vw] sm:w-32 sm:py-2
+}
+
+.h-ser {
+    @apply ml-[8vw] text-[1.5rem] mt-[3vh] font-medium sm:text-3xl
+}
+
+.h-i1 {
+    @apply h-[8vh] mx-[2vw] my-[1vh] sm:h-20
+}
+
+.h-d {
+    @apply flex bg-white shadow-xl min-h-[15vh] rounded-sm w-[90vw] px-2 py-4 sm:w-68 sm:min-h-44 md:w-75 
+}
+
+.h-d2 {
+    @apply font-medium pt-[1.5vh] text-[1.1rem] sm:text-[1.4rem] sm:leading-tight 
+}
+
+.h-d3 {
+    @apply text-slate-600 leading-tight pr-5 md:text-[1.1rem] md:mb-5
+}
+
+.h-foot {
+    @apply text-center mt-[6vh] text-slate-600 mb-[3vh] sm:mb-6
+}
+
+.m-i {
+    @apply h-[7vh] mt-[4vh] ml-[10vw] mb-[2vh] sm:h-10
+}
+
+.m-menu {
+    @apply my-[2vh] ml-[10vw] text-[1.4rem] 
+}
+
+.bcde {
+    @apply flex gap-x-[40vw] sm:gap-x-96 md:gap-x-[60vw] 
+}
+
+.xyz {
+    @apply my-[2vh] mx-12.5 flex flex-wrap gap-10 xl:mx-24
+}
